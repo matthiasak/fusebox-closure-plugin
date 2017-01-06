@@ -4,6 +4,7 @@
     "google-closure-compiler-js": "^20161201.0.0",
     "typescript": "^2.1.4"
   },
+  "main": "./lib",
   "scripts": {
     "clean": "rm -rf .fusebox",
     "postinstall": "npm i fuse-box",
