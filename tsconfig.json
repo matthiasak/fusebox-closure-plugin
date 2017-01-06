@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "lib/",
+        "declaration": true,
+        "sourceMap": true,
+        "lib": ["es2015"]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true
+}
