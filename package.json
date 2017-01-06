@@ -1,23 +1,24 @@
 {
-  "devDependencies": {
-    "google-closure-compiler-js": "^20161201.0.0",
-    "typescript": "^2.1.4"
-  },
-  "scripts": {
-    "clean": "rm -rf .fusebox",
-    "postinstall": "npm i fuse-box",
-    "build": "tsc",
-    "watch": "tsc -w"
-  },
-  "peerDependencies": {
-    "fuse-box": "^1.3.43"
-  },
-  "keywords": [
-    "closure compiler",
-    "fuse-box"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "@types/node": "^6.0.57"
-  }
+    "name": "fusebox-closure-plugin",
+    "devDependencies": {
+        "google-closure-compiler-js": "^20161201.0.0",
+        "typescript": "^2.1.4"
+    },
+    "scripts": {
+        "clean": "rm -rf .fusebox",
+        "postinstall": "npm i fuse-box",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "peerDependencies": {
+        "fuse-box": "^1.3.43"
+    },
+    "keywords": [
+        "closure compiler",
+        "fuse-box"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^6.0.57"
+    }
 }
