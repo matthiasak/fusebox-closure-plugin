@@ -1,7 +1,6 @@
 {
   "name": "fusebox-closure-plugin",
   "devDependencies": {
-    "google-closure-compiler-js": "^20161201.0.0",
     "typescript": "^2.1.4"
   },
   "main": "./lib",
@@ -21,6 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+  	"google-closure-compiler-js": "^20161201.0.0",
     "@types/node": "^6.0.57"
   },
   "version": "0.0.4"
