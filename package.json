@@ -1,7 +1,7 @@
 {
   "name": "fusebox-closure-plugin",
   "devDependencies": {
-    "typescript": "^2.1.4"
+    "typescript": "^2.1.5"
   },
   "main": "./lib",
   "scripts": {
