@@ -1,4 +1,3 @@
-import { WorkFlowContext } from 'fuse-box'
 import { BundleSource } from 'fuse-box/dist/commonjs/BundleSource'
 import { compile } from 'google-closure-compiler-js'
 
