@@ -6,7 +6,7 @@
         "outDir": "lib/",
         "declaration": true,
         "sourceMap": true,
-        "lib": ["es2015"]
+        "lib": ["DOM","ES6","DOM.Iterable","ScriptHost"]
     },
     "include": [
         "src/**/*.ts"

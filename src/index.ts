@@ -34,7 +34,13 @@ export class ClosureCompilerPluginClass {
 		// 	...this.options,
 		// 	...mainOptions
 		// })
-		const result = compile({jsCode: [{src: source}]})
+		const result = compile({
+			// languageIn: this.options.languageIn || 'ES6'
+			// languageOut: this.options.languageOut || 'ECMASCRIPT5_STRICT'
+			compilationLevel: this.options.compilationLevel || 'SIMPLE'
+			, checksOnly: this.options.checksOnly !== undefined ? this.options.checksOnly : true
+			, jsCode: [{src: source}]
+		})
 
 		newConcat.add(null, result.compiledCode, result.map || sourceMap)
 	}
