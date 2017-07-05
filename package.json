@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^7.0.8",
-    "google-closure-compiler-js": "^20170218.0.0"
+    "google-closure-compiler-js": "^20170626.0.0"
   },
   "version": "0.0.9"
 }
